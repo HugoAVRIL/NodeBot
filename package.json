@@ -1,0 +1,23 @@
+{
+  "name": "nodebot",
+  "version": "0.0.1",
+  "description": "Un bot pour tester des choses basiques sous Node.js",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "tmi.js": "^1.2.1"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "author": "Hugo AVRIL",
+  "license": "MIT",
+  "keywords": [
+    "twitch",
+    "chatbots",
+    "irc"
+  ]
+}
